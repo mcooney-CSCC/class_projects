@@ -155,6 +155,14 @@ main img {
     width: 40%;
 }
 
+.section40-60 aside {
+    width: 60%;
+}
+
+.section40-60 section {
+    width: 40%;
+}
+
 #indent-list {
     padding-left: 3rem;
 }
