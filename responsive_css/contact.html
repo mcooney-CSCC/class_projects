@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/newstyles.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="glass.html">Glass</a></li>
+                <li><a href="jewelry.html">Jewelry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="multi-col halfSplit">
+                <aside>
+                    <h2>Send A Message</h2>
+                    <p>
+                        4501 Amnicola Hwy <br>
+                        Chattanooga, TN 37406 <br>
+                    </p>
+                    <br>
+                </aside>
+                <section id="contact">
+                    <div class="form">
+                        <form action="/submit-message" method="POST">
+                        <div>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+                        <label for="message">Your Message:</label>
+                        <br>
+                        <textarea id="message" name="message" rows="5" cols="35" placeholder="Type your message here" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                        </form>
+                        <br>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer id="footer">
+            <hr>
+            <p>&copy; 2026 Melissa Cooney</p>
+        </footer>
+    </div>
+</body>
+</html>
